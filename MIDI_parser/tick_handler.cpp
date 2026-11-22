@@ -1,5 +1,4 @@
 #include "handler.hpp"
-#include <fstream>
 
 [[nodiscard]] tickReturn tickHandler(std::ifstream &file) {
 	uint8_t currentByte;

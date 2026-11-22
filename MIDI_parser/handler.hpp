@@ -1,5 +1,5 @@
 #pragma once
-#include <ios>
+#include <fstream>
 
 struct tickReturn {
 	int ticks;
