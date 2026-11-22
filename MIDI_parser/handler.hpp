@@ -6,4 +6,4 @@ struct tickReturn {
 	int bytesRead;
 };
 
-[[nodiscard]] tickReturn tickHandler(std::ifstream &file) {};
+[[nodiscard]] tickReturn tickHandler(std::ifstream &file);
