@@ -126,6 +126,7 @@
     <ClInclude Include="handler.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="tick_handler.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
