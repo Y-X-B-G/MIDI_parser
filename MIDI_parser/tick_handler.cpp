@@ -1,10 +1,5 @@
 #include "handler.hpp"
 
-int main() // testing commit
-{
-	return 0;
-}
-
 [[nodiscard]] tickReturn tickHandler(std::ifstream &file) {
 	uint8_t currentByte;
 	tickReturn ticks{};
