@@ -123,9 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="event.hpp" />
     <ClInclude Include="handler.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="event_handler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="tick_handler.cpp" />
   </ItemGroup>
