@@ -28,7 +28,7 @@
 			bool -  An boolean that informs the caller if the byte that was just read 
 					represents the end of the tick sequence (ie returns true if the next byte is no longer tick data) 
 	*/
-	
+	tick <<= 7;
 	tick += static_cast<int>(0b0111'1111 & rawData);
 
 	if (rawData & 0b1000'0000) {
